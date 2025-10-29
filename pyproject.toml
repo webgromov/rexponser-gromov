@@ -1,0 +1,15 @@
+[project]
+name = "rexponser-gromov"
+version = "0.1.0"
+description = "Telegram Channel Comment Bot - автоматический мониторинг постов в каналах с генерацией комментариев через ChatGPT"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiogram>=3.22.0",
+    "httpx[socks]>=0.28.1",
+    "openai>=2.6.1",
+    "pillow>=12.0.0",
+    "python-dotenv>=1.2.1",
+    "telethon>=1.41.2",
+    "tortoise-orm[asyncpg]>=0.25.1",
+]
